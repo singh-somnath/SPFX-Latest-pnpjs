@@ -207,7 +207,7 @@ export class SPoperations
                        
                         //await item.resetRoleInheritance();
                         */
-                        console.log("Hello World");
+                        console.log("Hello World , ");
                         const web = Web("https://pakur2.sharepoint.com/sites/ClassicSite");
                         const list = await web.lists.getByTitle("Employee");
                         const items = await list.items.filter("Title eq 'Mr' or startswith(City,'City')").get();
